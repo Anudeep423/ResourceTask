@@ -1,0 +1,115 @@
+#admin-header{
+    background-color: white;
+    border-bottom: 2px solid lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+
+
+
+
+
+.profile-logo{
+    margin : 0px 20px;
+    width: 60px;
+    height: 60px; 
+    border-radius: 30px;
+}
+
+#resource-input-field{
+    width: 300px;
+    margin-left: 10px;
+}
+
+#resource-section{
+    width: 90%;
+    margin: 0px auto;
+}
+
+#resource-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resource-card{
+    width: calc(33.33% - 2px - 20px);
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 20px;
+}
+
+@media (max-width: 500px) {
+    .resource-card{
+        width: calc(100% - 2px - 20px);
+    }
+    }
+
+    @media (min-width: 501px) {
+        .resource-card{
+            width: calc(50% - 2px - 20px);
+        }
+        }  
+        
+        
+    @media (min-width: 901px) {
+        .resource-card{
+            width: calc(33.33% - 2px - 20px);
+        }
+        } 
+        
+      
+    
+
+.resource-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+body{
+    font-family: 'Hanken Grotesk';
+}
+
+a{
+ 
+}
+
+.failure-toast{
+    color: red;
+}
+
+#nxtwave-logo{
+    width: 100px;
+    height: 80px;
+}
+
+.btn-check{
+    border-radius: 0px;
+}
+
+.active-radio{
+    background-color: blue;
+    color:  white;
+}
+
+.btn-primary{
+    color: white;
+}
+
+#item-details-section{
+    margin : 15px;
+    display: flex;
+
+}
+#field-section{
+    width: 50%;
+    text-align: center;
+}
+
+#pic-section{
+    width: 50%;
+
+}
